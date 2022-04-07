@@ -13,5 +13,6 @@ url_base= "https://health-diet.ru"
 
 req = requests.get(url=url_base, headers=headers)
 
-with open("index_repit.html", "w", encoding="utf8") as file_object:
-    file_object.write(req.text)
+# with open("index_repit.html", "w", encoding="utf8") as file_object:
+#     file_object.write(req.text)
+print("hello world")
