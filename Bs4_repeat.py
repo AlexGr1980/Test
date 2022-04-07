@@ -1,4 +1,7 @@
+from multiprocessing.reduction import sendfds
 import re
+from sys import getdlopenflags
+from markupsafe import HasHTML
 import requests
 import fake_useragent
 
@@ -17,5 +20,13 @@ req = requests.get(url=url_base, headers=headers)
 #     file_object.write(req.text)
 
 print("hello world")
-print("hello world")
-print("hello world")
+
+lkhdf;lhdfg\HasHTMLhfgdh
+
+getdlopenflagsdfgdf
+
+sendfds
+
+
+
+
